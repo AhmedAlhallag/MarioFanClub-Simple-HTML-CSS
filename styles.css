@@ -211,13 +211,118 @@ form input:focus{
 }
 
 /* ٌResponsive layout */
+@media screen and (max-width: 780px) {
 
+  nav ul li a {
+    font-size: 13px;
+
+
+  }
+}
+@media screen and (max-width: 530px) {
+
+  nav ul li a {
+    font-size: 13px;
+
+
+  }
+}
 @media screen and (max-width: 1000px) {
-    .welcome {
-      max-width: 70%
-    }
-    .welcome h2 {
-      max-width: 70%
-    }
 
+  .banner h2{
+    font-size: 40px
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+
+  .banner h2{
+    font-size: 30px
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  /* .banner h2{
+    font-size: 20px
+  }
+ */
+ .banner .welcome {
+   position:relative;
+
+
+ }
+ .banner .welcome br{
+   display: none;
+
+
+ }
+.banner .behind{
+  background-color: #FEB614
+
+}
+.banner .welcome h2 {
+font-size: 24px;
+text-align: center;
+}
+.banner .welcome h2 span {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.banner .welcome {
+padding: 8px
+
+  }
+  .images li {
+    width: 100%;
+    display: block;
+    margin: 40px auto;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  nav ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    /* margin: 20px 0; */
+    padding-top: 15px;
+    padding-bottom: 15px
+
+
+
+
+  }
+  nav {
+    padding: 0px;
+    /* position: relative; */
+    /* overflow: hidden; */
+    position:sticky;
+    top: -1px;
+    box-shadow: 0 0 10px #c9c9c9;
+
+
+    /* background-color: blue */
+
+  }
+  nav ul {
+    padding: 0;
+  }
+  nav ul li a {
+    font-size: 18px;
+
+
+
+  }
+  nav ul li:hover {
+    background-color: rgb(232, 232, 232);
+    cursor: pointer;
+
+  }
+  header{
+    position: relative;
+  }
 }
